@@ -34,6 +34,9 @@ Nastaliq brings the elegance of traditional calligraphy to your Android device w
 2. Add Urdu language.
 Use The Jameel Noori Nastaliq module, enjoy the beauty and convenience of Urdu on your Android device!
 
+![Guide](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/assets/144518310/fbcc1143-f785-4f83-b236-0e0831e95e14)
+
+
 ## Screenshots
 
 * Kasheeda Variant <br> ![Kasheeda](https://github.com/Hassan-kareem/Nastaliq-Fonts/assets/144518310/245c7e76-07dc-4d4a-80c8-e8ab4a555b3d) <!-- Describing Kasheeda Variant -->
