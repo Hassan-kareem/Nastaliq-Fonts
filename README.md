@@ -1,5 +1,5 @@
 # Nastaliq Urdu
-![Urdu Banner](Images/Banner.png)
+![Urdu Banner](Images/Banner2.png)
 
 ## Nastaleeq Font Module for Urdu Users
 
