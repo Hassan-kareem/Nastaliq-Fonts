@@ -1,7 +1,8 @@
 id=Nastaliq-Urdu_Regular
 name=Nastaliq Urdu with Regular
-version=4.0
-versionCode=400
+version=5.0
+versionCode=500
 author=Hassan-karim
 description=Jameel Noori Nastaliq for Urdu language
 updateJson=https://github.com/Hassan-kareem/Nastaliq-Urdu_font/blob/Regular/update.json
+
