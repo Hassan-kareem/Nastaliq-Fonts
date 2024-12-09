@@ -3,5 +3,5 @@ If you have any questions, use the following link to comment:
 
 https://www.youtube.com/@HassansTechInsights
 
-# v2
-- Increased font size by default
+# v5.0
+- Added support for Android 15
