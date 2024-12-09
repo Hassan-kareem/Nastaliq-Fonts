@@ -1,35 +1,35 @@
 #!/system/bin/sh
 
-# Define paths
 MODDIR=${0%/*}
 FONTS_XML_PATH="/system/etc/fonts.xml"
+FONT_FALLBACK_XML_PATH="/system/etc/font_fallback.xml"
 MODIFIED_FONTS_XML_PATH="$MODDIR/system/etc/fonts.xml"
-
-# Get Android API level
+MODIFIED_FONT_FALLBACK_XML_PATH="$MODDIR/system/etc/font_fallback.xml"
 APILEVEL=$(getprop ro.build.version.sdk)
 
-# Copy original fonts.xml to the MODDIR to overwrite dummy file
 mkdir -p "$MODDIR/system/etc"
-cp "$FONTS_XML_PATH" "$MODIFIED_FONTS_XML_PATH"
 
-# Function to add urdu family before ethi family
-add_ur_arab_family() {
-if [ "$APILEVEL" -ge 31 ]; then
-        # Android 12 and later format
-    sed -i '/<family lang="und-Ethi">/i \
-    <family lang="ur-Arab" variant="elegant"> \
-        <font weight="400" style="normal" postScriptName="NotoNastaliqUrdu"> NotoNastaliqUrdu-Regular.ttf </font> \
-        <font weight="700" style="normal"> NotoNastaliqUrdu-Bold.ttf </font> \
-    </family>' "$MODIFIED_FONTS_XML_PATH"
-else
-        # Android 11 and earlier format
+if [ "$APILEVEL" -le 30 ]; then
+    cp "$FONTS_XML_PATH" "$MODIFIED_FONTS_XML_PATH"
     sed -i '/<!-- fallback fonts -->/a \
     <family lang="ur-Arab" variant="elegant"> \
         <font weight="400" style="normal"> NotoNastaliqUrdu-Regular.ttf </font> \
         <font weight="700" style="normal"> NotoNastaliqUrdu-Bold.ttf </font> \
     </family>' "$MODIFIED_FONTS_XML_PATH"
+elif [ "$APILEVEL" -ge 31 ] && [ "$APILEVEL" -lt 34 ]; then
+    cp "$FONTS_XML_PATH" "$MODIFIED_FONTS_XML_PATH"
+    sed -i '/<family lang="und-Ethi">/i \
+    <family lang="ur-Arab" variant="elegant"> \
+        <font weight="400" style="normal" postScriptName="NotoNastaliqUrdu"> NotoNastaliqUrdu-Regular.ttf </font> \
+        <font weight="700" style="normal"> NotoNastaliqUrdu-Bold.ttf </font> \
+    </family>' "$MODIFIED_FONTS_XML_PATH"
+elif [ "$APILEVEL" -ge 34 ]; then
+    cp "$FONT_FALLBACK_XML_PATH" "$MODIFIED_FONT_FALLBACK_XML_PATH"
+    sed -i '/<family lang="und-Ethi">/i \
+    <family lang="ur-Arab" variant="elegant"> \
+        <font weight="400" style="normal" postScriptName="NotoNastaliqUrdu"> NotoNastaliqUrdu-Regular.ttf </font> \
+        <font weight="700" style="normal"> NotoNastaliqUrdu-Bold.ttf </font> \
+    </family>' "$MODIFIED_FONT_FALLBACK_XML_PATH"
+else
+    exit 1
 fi
-}
-
-# Call the function to add the ur-Arab family language above Ethi
-add_ur_arab_family

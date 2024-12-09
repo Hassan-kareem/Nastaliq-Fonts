@@ -1,7 +1,8 @@
 id=Nastaliq-Urdu_Kasheeda
 name=Nastaliq Urdu with Kasheeda
-version=4.0
-versionCode=400
+version=5.0
+versionCode=500
 author=Hassan-karim
 description=Jameel Noori Nastaliq with Kasheeda for Urdu language
 updateJson=https://raw.githubusercontent.com/Hassan-kareem/Nastaliq-Urdu_font/Kasheeda/update.json
+
