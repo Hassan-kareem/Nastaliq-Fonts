@@ -16,14 +16,14 @@ if [ "$APILEVEL" -le 30 ]; then
         <font weight="400" style="normal"> NotoNastaliqUrdu-Regular.ttf </font> \
         <font weight="700" style="normal"> NotoNastaliqUrdu-Bold.ttf </font> \
     </family>' "$MODIFIED_FONTS_XML_PATH"
-elif [ "$APILEVEL" -ge 31 ] && [ "$APILEVEL" -lt 34 ]; then
+elif [ "$APILEVEL" -ge 31 ] && [ "$APILEVEL" -le 34 ]; then
     cp "$FONTS_XML_PATH" "$MODIFIED_FONTS_XML_PATH"
     sed -i '/<family lang="und-Ethi">/i \
     <family lang="ur-Arab" variant="elegant"> \
         <font weight="400" style="normal" postScriptName="NotoNastaliqUrdu"> NotoNastaliqUrdu-Regular.ttf </font> \
         <font weight="700" style="normal"> NotoNastaliqUrdu-Bold.ttf </font> \
     </family>' "$MODIFIED_FONTS_XML_PATH"
-elif [ "$APILEVEL" -ge 34 ]; then
+elif [ "$APILEVEL" -ge 35 ]; then
     cp "$FONT_FALLBACK_XML_PATH" "$MODIFIED_FONT_FALLBACK_XML_PATH"
     sed -i '/<family lang="und-Ethi">/i \
     <family lang="ur-Arab" variant="elegant"> \
