@@ -5,3 +5,4 @@ https://www.youtube.com/@HassansTechInsights
 
 # v5.0
 - Added support for Android 15
+- Fixed compatibility with Android 12 to 14
