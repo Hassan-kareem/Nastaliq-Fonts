@@ -3,6 +3,6 @@ If you have any questions, use the following link to comment:
 
 https://www.youtube.com/@HassansTechInsights
 
-# v5.0
+# v5.1
 - Added support for Android 15
 - Fixed compatibility with Android 12 to 14
