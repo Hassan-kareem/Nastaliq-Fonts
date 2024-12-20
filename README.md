@@ -11,13 +11,13 @@
 ## Installation
 ![Downloads](https://img.shields.io/github/downloads/Hassan-kareem/Nastaliq-Urdu_font/total.svg?style=plastic&label=Downloads)
 [![Telegram Channel](https://img.shields.io/badge/Join-Telegram-blue?style=plastic&logo=telegram)](https://t.me/HassansTechInsights)
-[![Download Noto Nastaliq Urdu](https://img.shields.io/badge/Download-Noto%20Nastaliq%20Urdu-orange?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/NotoNastaliq-v3.0/NotoNastaliqUrdu-v3.0.zip)
-[![Download Noori Kasheeda](https://img.shields.io/badge/Download-Noori%20Kasheeda-brightgreen?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Kasheeda-v5.0/Nastaliq-Urdu_Kasheeda-v5.0.zip)
-[![Download Noori Regular](https://img.shields.io/badge/Download-Noori%20Regular-darkgreen?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Regular-v5.0/Nastaliq-Urdu_Regular-v5.0.zip)
-[![Download Mehr Nastaliq](https://img.shields.io/badge/Download-Mehr%20Nastaliq-dark?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/MehrNastaliq-v3.0/Mehr_Nastaliq-Urdu-v3.0.zip)
+[![Download Noto Nastaliq Urdu](https://img.shields.io/badge/Download-Noto%20Nastaliq%20Urdu-orange?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/NotoNastaliq-v3.1/NotoNastaliqUrdu-v3.1.zip)
+[![Download Noori Kasheeda](https://img.shields.io/badge/Download-Noori%20Kasheeda-brightgreen?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Kasheeda-v5.1/Nastaliq-Urdu_Kasheeda-v5.1.zip)
+[![Download Noori Regular](https://img.shields.io/badge/Download-Noori%20Regular-darkgreen?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Regular-v5.1/Nastaliq-Urdu_Regular-v5.1.zip)
+[![Download Mehr Nastaliq](https://img.shields.io/badge/Download-Mehr%20Nastaliq-dark?style=plastic&logo=github)](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/MehrNastaliq-v3.1/Mehr_Nastaliq-Urdu-v3.1.zip)
 [![XDA Thread](https://img.shields.io/badge/XDA%20Thread-Visit%20Now-green?style=plastic)](https://xdaforums.com/t/module-font-nastaliq-urdu-font.4645787/)
 
-1. **Download:** Obtain the latest zip from Releases: [Noto Nastaliq Urdu](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/NotoNastaliq-v3.0/NotoNastaliqUrdu-v3.0.zip), [Kasheeda](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Kasheeda-v5.0/Nastaliq-Urdu_Kasheeda-v5.0.zip) or [Regular](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Regular-v5.0/Nastaliq-Urdu_Regular-v5.0.zip), [Mehr Nastaliq](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/MehrNastaliq-v3.0/Mehr_Nastaliq-Urdu-v3.0.zip)
+1. **Download:** Obtain the latest zip from Releases: [Noto Nastaliq Urdu](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/NotoNastaliq-v3.1/NotoNastaliqUrdu-v3.1.zip), [Kasheeda](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Kasheeda-v5.1/Nastaliq-Urdu_Kasheeda-v5.1.zip) or [Regular](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/Noori-Regular-v5.1/Nastaliq-Urdu_Regular-v5.1.zip), [Mehr Nastaliq](https://github.com/Hassan-kareem/Nastaliq-Urdu_font/releases/download/MehrNastaliq-v3.1/Mehr_Nastaliq-Urdu-v3.1.zip)
 2. **Flash:** Install the downloaded file using Magisk or KernelSU.
 
 > [!NOTE]
